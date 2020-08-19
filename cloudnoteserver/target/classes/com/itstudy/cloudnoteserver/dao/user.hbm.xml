@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.itstudy.cloudnoteserver.domain">
+	<class name="User" table="User">
+		<id name="id" column="id">
+		</id>
+		<property name="password" column="password" />
+		<property name="nickname" column="nickname" />
+	</class>
+</hibernate-mapping>

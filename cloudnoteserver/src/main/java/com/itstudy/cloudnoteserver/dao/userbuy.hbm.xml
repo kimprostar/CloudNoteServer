@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.itstudy.cloudnoteserver.domain">
+	<class name="Userbuy" table="Userbuy">
+		<id name="userid" column="userid">
+		</id>
+		<property name="fileid" column="fileid" />
+	</class>
+</hibernate-mapping>

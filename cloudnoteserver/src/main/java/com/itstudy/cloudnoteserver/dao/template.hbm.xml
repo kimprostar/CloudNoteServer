@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.itstudy.cloudnoteserver.domain">
+	<class name="Template" table="Template">
+		<id name="fileid" column="fileid">
+		</id>
+		<property name="filedate" column="filedate" />
+		<property name="userid" column="userid" />
+		<property name="filecontent" column="filecontent" />
+		<property name="image" column="image" />
+		<property name="fileadd" column="fileadd" />
+		<property name="download" column="download" />
+		<property name="filelike" column="filelike" />
+	</class>
+</hibernate-mapping>
