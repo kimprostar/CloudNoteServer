@@ -5,8 +5,9 @@
 
 <hibernate-mapping package="com.itstudy.cloudnoteserver.domain">
 	<class name="Userbuy" table="Userbuy">
-		<id name="userid" column="userid">
-		</id>
-		<property name="fileid" column="fileid" />
+		<composite-id>
+			<key-property name="userid" column="userid" ></key-property>
+			<key-property name="fileid" column="fileid"></key-property>
+		</composite-id>
 	</class>
 </hibernate-mapping>
